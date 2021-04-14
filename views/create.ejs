@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Site | <%=title %></title>
+    </head>
+    <body>
+        <div class = "site-title">
+            <h1>Blog it!</h1>
+            <p>A blogging site</p>
+        </div>
+        
+        <ul>
+            <li><a href = "/">Blogs</a></li>
+            <li><a href = "/about">About me</a></li>
+            <li><a href = "/create">Create blog</a></li>
+        </ul>
+        <div class = "blog content">
+            <form>
+                <label for="title">Blog Title</label>
+                <input type="text" id="title" required>
+                <label for="snippet">Blog Snippet</label>
+                <input type="text" id="snippet" required>
+                <label for="body">Blog Body:</label>
+                <textarea id="body" required></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
